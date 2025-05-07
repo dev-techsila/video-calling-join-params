@@ -255,7 +255,7 @@ function Call(props: { appId: string; channelName: any, rtctoken: any, rtmtoken:
 
                     <div className={`flex-1 ${isMapVisible ? "hidden" : ""} p-4`}>
                         {
-                            rtcToken &&
+                            props.rtctoken &&
                             <Videos
                                 channelName={props.channelName}
                                 AppID={props.appId}
