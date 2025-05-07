@@ -261,7 +261,7 @@ function Call(props: { appId: string; channelName: any, rtctoken: any, rtmtoken:
                                 AppID={props.appId}
                                 isMicMuted={isMicMuted}
                                 isCameraOff={isCameraOff}
-                                token={rtcToken}
+                                token={props.rtctoken}
                                 uid={rtcUid}
                             />
                         }
